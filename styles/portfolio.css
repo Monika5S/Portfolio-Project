@@ -33,7 +33,7 @@ p {
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 25% 3%;
+    padding: 160px 20px;
 }
 
 .hero p {
@@ -58,5 +58,5 @@ p {
     font-family: var(--default-font-family);
     font-size: 18px;
     line-height: 27px;
-    padding: 2.5% 4%;
+    padding: 16px 36px;
 }
