@@ -24,10 +24,23 @@ h6 {
 
 h1 {
     font-size: 96px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
 }
 
 p {
-    font-weight: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #272142;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 .hero {
@@ -40,23 +53,80 @@ p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: #272142;
 }
 
 .hero h2 {
     font-family: var(--default-font-family);
     font-size: 24px;
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     color: #272142;
 }
 
-.btn-branding {
+.btn-branding,
+.btn-branding-outline {
     background: var(--branding-color);
     color: white;
     border-radius: 4px;
     font-family: var(--default-font-family);
     font-size: 18px;
     line-height: 27px;
-    padding: 16px 36px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    background: transparent;
+}
+
+.project-description {
+    padding: 120px 60px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 50px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .container {
+        padding: 2% 8%;
+    }
+
+    .row {
+        position: relative;
+    }
+
+    .img-wrapper {
+        position: absolute;
+        opacity: 0.5;
+        width: 50%;
+        box-shadow: 0px 0px 3px darkslategrey;
+    }
+
+    .project-description-wrapper {
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding: 2%;
+        position: relative;
+        background: linear-gradient(to bottom, rgba(218, 205, 251, 0.265), rgb(203, 181, 255)50%);
+        z-index: 1;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
 }
