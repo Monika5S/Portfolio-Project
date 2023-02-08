@@ -63,6 +63,32 @@ img {
     color: #272142;
 }
 
+.about-section {
+    padding: 160px 20px;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.about-section img {
+    width: 100%;
+    background: #f6f3ff;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+
 .btn-branding,
 .btn-branding-outline {
     background: var(--branding-color);
@@ -118,15 +144,35 @@ img {
         width: 90%;
         margin-top: 10%;
         margin-left: 10%;
-        padding: 2%;
+        padding: 5% 2%;
         position: relative;
         background: linear-gradient(to bottom, rgba(218, 205, 251, 0.265), rgb(203, 181, 255)50%);
         z-index: 1;
     }
 
-    .project-description {
+    .project-description,
+    .about-section {
         padding: 0;
         text-align: center;
+    }
+
+    .about-section {
+        position: relative;
+    }
+
+    .about-section img {
+        width: 100%;
+        background: transparent;
+        position: absolute;
+        opacity: 0.7;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .about-section-content {
+        margin-top: 20%;
     }
 
 }
