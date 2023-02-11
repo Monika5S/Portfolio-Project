@@ -43,6 +43,15 @@ p {
     color: var(--light-text-color);
 }
 
+a {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -50,6 +59,10 @@ img {
 
 nav {
     padding: 15px 75px;
+}
+
+nav.bg-light {
+    background-color: var(--secondary-color) !important;
 }
 
 nav ul {
@@ -74,15 +87,7 @@ nav a {
 nav a:hover,
 nav li .active {
     color: var(--branding-color);
-}
-
-a {
-    color: var(--branding-color);
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .logo {
