@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find My Work</title>
+    <meta
+      name="description"
+      content="Monika Singh's work portfolio, view project's she has created."
+    />
+    <title>Find My Work - Frontend web development Projects</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -28,25 +32,25 @@
 
   <body>
     <nav class="d-flex justify-content-between bg-light">
-      <a href="/">
-        <img src="./media/logo.svg" alt="logo" class="logo" />
+      <a href="/" title="Homepage">
+        <img src="./media/logo.svg" alt="personal brannd logo" class="logo" />
       </a>
 
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" title="Homepage">Home</a>
         </li>
 
         <li>
-          <a href="./about.html">About</a>
+          <a href="./about.html" title="About Monika">About</a>
         </li>
 
         <li>
-          <a href="./work.html" class="active">Work</a>
+          <a href="./work.html" class="active" title="Monika's work">Work</a>
         </li>
 
         <li>
-          <a href="./contact.html">Contact</a>
+          <a href="./contact.html" title="Contact Monika">Contact</a>
         </li>
       </ul>
     </nav>
@@ -60,7 +64,7 @@
             <div class="col-md-6 mb-4">
               <img
                 src="./media/yogurt.png"
-                alt="yogurt project"
+                alt="yogurt project preview"
                 class="img-fluid mb-3 rounded"
               />
 
@@ -71,7 +75,7 @@
             <div class="col-md-6 mb-4">
               <img
                 src="./media/weather.png"
-                alt="weather project"
+                alt="weather project preview"
                 class="img-fluid mb-3 rounded"
               />
 
@@ -82,7 +86,7 @@
             <div class="col-md-6 mb-4">
               <img
                 src="./media/dictionary.png"
-                alt="dictionary app"
+                alt="dictionary app preview"
                 class="img-fluid mb-3 rounded"
               />
 
@@ -93,7 +97,7 @@
             <div class="col-md-6 mb-4">
               <img
                 src="./media/translation.png"
-                alt=" translation app"
+                alt=" translation app preview"
                 class="img-fluid mb-3 rounded"
               />
 
@@ -107,12 +111,17 @@
       <footer>
         <div class="contact-box d-lg-flex justify-content-between mb-4">
           <div>
-            <h4 class="m-0">Work Inquiry</h4>
+            <h3 class="m-0">Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
 
           <div>
-            <a href="./contact.html" class="btn btn-branding">Contact me</a>
+            <a
+              href="./contact.html"
+              title="Contat Monika"
+              class="btn btn-branding"
+              >Contact me</a
+            >
           </div>
         </div>
 
@@ -121,18 +130,41 @@
         </div>
 
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/Monika5S" target="_blank">
+          <a
+            href="https://github.com/Monika5S"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
 
-          <a href="https://codesandbox.io/u/Mona" target="_blank">
+          <a
+            href="https://codesandbox.io/u/Mona"
+            target="_blank"
+            title="CodeSandbox Profile"
+          >
             <i class="fa-solid fa-cube"></i>
           </a>
 
-          <a href="https://www.instagram.com/travelz.mon/" target="_blank">
+          <a
+            href="https://www.instagram.com/travelz.mon/"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
+
+        <p class="text-center mt-5">
+          © Monika Singh 2023 • Made with 💜 in India • Hosted on Netlify • View
+          on
+          <a
+            href="https://github.com/Monika5S/Portfolio-Project"
+            title="GitHub Link to Portfolio Project"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
       </footer>
     </div>
   </body>

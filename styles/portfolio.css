@@ -32,7 +32,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -117,7 +117,7 @@ nav li .active {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 100px 20px;
     padding-bottom: 0;
 }
 
@@ -224,7 +224,7 @@ footer .social-links a:hover {
         font-size: 44px;
     }
 
-    h4 {
+    h3 {
         font-size: 35px;
     }
 
