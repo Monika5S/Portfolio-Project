@@ -137,14 +137,25 @@ nav li .active {
     line-height: 1.5;
 }
 
-
 .content p {
-    /* utilized this size for work page but it also changing text font-size on about page as well */
     font-size: 14px;
+}
+
+.content p.about-me {
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .content {
     margin: 30px;
+}
+
+.project-preview {
+    background-color: var(--secondary-color);
+    padding: 15% 2%;
+    height: 550px;
+    width: 95%;
+    object-fit: contain;
 }
 
 .women-image {
@@ -173,8 +184,8 @@ nav li .active {
 }
 
 .project-description {
-    padding: 120px 60px;
-    padding-bottom: 50px;
+    padding: 60px;
+    align-self: center;
 }
 
 .contact-section {
@@ -199,7 +210,7 @@ footer p.email {
     padding: 30px 0;
 }
 
-footer .social-links a {
+.social-links a {
     margin: 0 20px;
     padding: 10px 15px;
     font-size: 18px;
@@ -209,7 +220,7 @@ footer .social-links a {
     transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
+.social-links a:hover {
     color: white;
     background: var(--branding-color);
 }
@@ -255,6 +266,11 @@ footer .social-links a:hover {
         box-shadow: 0px 0px 3px darkslategrey;
     }
 
+    .project-preview {
+        height: 400px;
+        padding: 5%;
+    }
+
     .project-description-wrapper {
         width: 90%;
         margin-top: 10%;
@@ -298,5 +314,11 @@ footer .social-links a:hover {
     footer p.email {
         font-size: 18px;
         font-weight: bold;
+    }
+}
+
+@media (max-width:767px) {
+    .project-description-wrapper {
+        margin-left: 0;
     }
 }
